@@ -160,33 +160,36 @@ h4{
   width: 33%;
 }
 footer{
-  margin: 45px 71px 0 71px;
+  margin-top: 5rem;
   display: flex;
   flex-flow: column wrap;
 	background: #1b1b1b;
-	padding: 0 71px 5px 71px;
+	/* padding: 0 71px 5px 71px; */
 }
 .footerItem{
   display: flex;
 	flex-flow: column wrap;
 }
 
-/* search {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "roboto";
-} */
+.search-txt{
+  background: #363636;
+border-radius: 8px;
+}
 
 header{
   display: flex;
   height: 146px;
   background: #333333;
 	padding: 0 20px;
-	justify-content: space-evenly;
-  align-items: center;
   margin: 0 auto;
   width: 75vw;
+}
+.headerWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
 }
 .TimeOut{
   border-radius: 85px;
@@ -201,22 +204,22 @@ header{
 	
 }
 
-.creditWrapper{
+.footerWrapper{
   display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+  justify-content: space-between;
+  width: 70vw;
+  margin: 0 auto;
+
 }
 
 .copyright{
-  display: flex;
-	justify-content: flex-start;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
 	color: #FCFCFC;
-	
 }
 .middleWrapper{
 	display: flex;

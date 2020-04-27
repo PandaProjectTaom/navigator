@@ -4,35 +4,27 @@
 	<meta charset="UTF-8">
 	<title>Главная | Навигатор курсов</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" charset="UTF-8"></script>
 </head>
 <body>
-	<header align="center">
-		<div>
-			<img class="TimeOut" src="img/TimeOut.png">
-		</div>
-		
-		<div class="middleWrapper">
-			<div class="search-screen">
-				<i class="fas fa-search search-icon"></i>
-				
-				<div class="search-box">
+	<header>
+		<div class="headerWrapper">
+			<div>
+				<img class="TimeOut" src="img/TimeOut.png">
+			</div>
+			
+			<div class="middleWrapper">
+				<div>
 					<input type="text" class="search-txt" placeholder="Поиск курсов...">
-					<button class="search-btn" ><i class="fas fa-arrow-right"></i></button>
+					<input type="submit" value="Найти">
+				</div>	
+				<div class="underSearchBar">
+					<select class="categoryChoice">
+						<option >Категории</option>
+					</select>
+					<a>Топ курсов</a>
 				</div>
 			</div>
-			
-			<div class="underSearchBar">
-				<select class="categoryChoice">
-					<option >Категории</option>
-				</select>
-				<a>Топ курсов</a>
-			</div>
 		</div>	
-			
-		<div>
-			<button>Найти</button>
-		</div>
 	</header>
 
 	<section>
@@ -111,7 +103,7 @@
 	<!--Конец "полулярных курсов"-->
 	</section>
 	<footer>
-		<div class="creditWrapper">
+		<div class="footerWrapper">
 			<div class="footerItem">
 				<h3>Навигатор курсов</h3>
 				<h4>В разработке учавствовали:</h4>
@@ -119,6 +111,10 @@
 					<img src="img/TimeOut.png">
 					<img src="img/KidsOut.png">
 					<img src="img/TAOMout.png">
+				</div>
+				<br>
+				<div class="copyright">
+					<p>Копирайт 2020</p>
 				</div>
 			</div>
 
@@ -142,10 +138,9 @@
 				<h3>Контакты</h3>
 				<p>Почта:</p>
 			</div>
-		</div>	
-		<div class="copyright">
-			Копирайт 2020
 		</div>
+
+	
 	</footer>
 </body>
 </html>
