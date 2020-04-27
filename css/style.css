@@ -1,6 +1,228 @@
-body {
-	padding: 0; 
-	margin: 0;
-	font-family: sans-serif;
-	overflow-x: hidden;
+:root{
+  --main-menu-color: black;
+  --overall-text-color: white;
+  --button-color: gray;
+}
+a{
+  text-decoration: none;
+}
+
+section{
+  width: 70vw;
+  margin: 0 auto;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-color: var(--main-menu-color);
+  color: var(--overall-text-color);
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+h1{
+  font-size: 49px;
+}
+
+h2{
+  font-size: 36px;
+}
+
+h3{
+  font-size: 32px;
+  color: #da8f20;
+}
+h4{
+		color: #da8f20;
+}
+
+.imgRow{
+	display: flex;
+	justify-content: space-around;
+}
+.imgRow img{
+	border-radius: 85px;
+	width: 37px;
+	height: 37px;
+}
+
+.categories{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  height: 40%;
+}
+
+.categories1{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+
+  flex: 2;
+  justify-content: space-between;
+}
+
+.categoryCard{
+  display: flex;
+  width: 45%;
+  height: 100%;
+  flex-flow: column nowrap;
+  /* background-size: 100% 100%; */
+  /* color: var(--overall-text-color); */
+  margin: 1% 0;
+  z-index: 0;
+  position: relative;
+}
+
+.buttonToCourses{
+  align-self: flex-end;
+  background: transparent;
+  color: gray;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+}
+
+.courseNameWrapper{
+  display: flex;
+  background-color: black;
+  filter: opacity(80%);
+  min-width: 100%;
+  max-height: 20%;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+}
+
+.Popular{
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+}
+.Popular1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.Popular2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: inherit;
+  height: inherit;
+}
+.taglist{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  margin-top: 24px;
+}
+.imgcontainer{
+  width: inherit;
+  height: inherit;
+  margin-right: 3rem;
+}
+
+.tag{
+  color: var(--main-menu-color);
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+.tagPurple{
+  background-color: #a9a3a9;
+}
+.tagYellow{
+  background-color: #d3b17c;
+}
+.tagPink{
+  background-color: #cb9694;
+}
+.tagGreen{
+  background-color: #3c8781;
+}
+.tagOrange{
+  background-color: #d67a1b;
+}
+.Element{
+  width: 33%;
+}
+footer{
+  margin: 45px 71px 0 71px;
+  display: flex;
+  flex-flow: column wrap;
+	background: #1b1b1b;
+	padding: 0 71px 5px 71px;
+}
+.footerItem{
+  display: flex;
+	flex-flow: column wrap;
+}
+
+/* search {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+} */
+
+header{
+  display: flex;
+  height: 146px;
+  background: #333333;
+	padding: 0 20px;
+	justify-content: space-evenly;
+  align-items: center;
+  margin: 0 335px 0 335px;
+}
+.TimeOut{
+  border-radius: 85px;
+	height: 85px;
+  width: 85px;
+}
+
+.search-screen{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	
+}
+
+.creditWrapper{
+  display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.copyright{
+  display: flex;
+	justify-content: flex-start;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FCFCFC;
+	
+}
+.middleWrapper{
+	display: flex;
+	flex-flow: column wrap;
+}
+.categoryChoice{
+	border: 0;
+	background: transparent;
+	color: white;
 }

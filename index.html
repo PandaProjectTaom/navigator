@@ -4,9 +4,148 @@
 	<meta charset="UTF-8">
 	<title>Главная | Навигатор курсов</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" charset="UTF-8"></script>
 </head>
 <body>
-	<header></header>
-	<footer></footer>
+	<header align="center">
+		<div>
+			<img class="TimeOut" src="img/TimeOut.png">
+		</div>
+		
+		<div class="middleWrapper">
+			<div class="search-screen">
+				<i class="fas fa-search search-icon"></i>
+				
+				<div class="search-box">
+					<input type="text" class="search-txt" placeholder="Поиск курсов...">
+					<button class="search-btn" ><i class="fas fa-arrow-right"></i></button>
+				</div>
+			</div>
+			
+			<div class="underSearchBar">
+				<select class="categoryChoice">
+					<option >Категории</option>
+				</select>
+				<a>Топ курсов</a>
+			</div>
+		</div>	
+			
+		<div>
+			<button>Найти</button>
+		</div>
+	</header>
+
+	<section>
+	<!--Начало "категорий курсов"-->
+	<div class="categories">
+		<h2 class="header" align="left">Категории курсов</h2>
+			<div class="categories1" >
+				<div class="categoryCard">
+					<div>
+						<img src="./img/IMG1.jpg">
+					</div>
+					<div class="courseNameWrapper">
+						<p>pic №1</p>
+					</div>
+				</div>
+				
+				<div class="categoryCard">
+					<div>
+						<img src="./img/IMG1.jpg">
+					</div>
+					<div class="courseNameWrapper">
+						<p>pic №1</p>
+					</div>
+				</div>
+				
+				<div class="categoryCard">
+					<div>
+						<img src="./img/IMG1.jpg">
+					</div>
+					<div class="courseNameWrapper">
+						<p>pic №1</p>
+					</div>
+				</div>
+				
+				<div class="categoryCard">
+					<div>
+						<img src="./img/IMG1.jpg">
+					</div>
+					<div class="courseNameWrapper">
+						<p>pic №1</p>
+					</div>
+				</div>
+			</div>	
+			<a href="http://htmlbook.ru/css/z-index" class="buttonToCourses">+ Больше курсов</a>
+				
+	</div>
+	<!--Конец "категории курсов"-->
+	</section>
+	<section>
+	<!--Начало "популярных курсов"-->
+	<div class="Popular">
+		<h2>Популярные курсы</h2>
+		<div class="Popular1">
+				
+				
+				<div class="imgcontainer">
+					<img src="https://www.motocms.com/blog/wp-content/uploads/2018/07/css-main-image.jpg">
+				</div>
+				
+				<div class="Popular2">
+					<h3>Название курса</h3>
+					<p>Краткое описание курса курса курса курса курса курса курса курса курса</p>
+					<div>
+						<a class="buttonToCourses">Подробнее</a>
+					</div>
+				</div>
+		</div>
+				<div align = "left" class="taglist" >
+					<a class="tag tagPurple">#tag</a>
+					<a class="tag tagYellow">#tag</a>
+					<a class="tag tagPink">#tag</a>
+					<a class="tag tagGreen">#tag</a>
+					<a class="tag tagOrange">#tag</a>
+			  </div>
+	</div>
+	<!--Конец "полулярных курсов"-->
+	</section>
+	<footer>
+		<div class="creditWrapper">
+			<div class="footerItem">
+				<h3>Навигатор курсов</h3>
+				<h4>В разработке учавствовали:</h4>
+				<div class="imgRow">
+					<img src="img/TimeOut.png">
+					<img src="img/KidsOut.png">
+					<img src="img/TAOMout.png">
+				</div>
+			</div>
+
+			<div class="footerItem">
+				<h3>Категории</h3>
+				<p>Категории</p>
+				<p>Категории</p>
+				<p>Категории</p>
+			</div>
+				
+			
+			<div class="footerItem">
+				<h3>Топ курсов</h3>
+				<p>Веб-дизайн</p>
+				<p>Веб-дизайн</p>
+				<p>Веб-дизайн</p>
+
+			</div>
+
+			<div class="footerItem">
+				<h3>Контакты</h3>
+				<p>Почта:</p>
+			</div>
+		</div>	
+		<div class="copyright">
+			Копирайт 2020
+		</div>
+	</footer>
 </body>
 </html>
